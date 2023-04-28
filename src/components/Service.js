@@ -21,7 +21,7 @@ export default function service() {
         return (
             <div class="feature-box">
                 <img src={require(`../icon/${featureItem.path}`)} alt="" />
-                <h5>{featureItem.name}</h5>
+                <h5>{featureItem.name} </h5>
                 <p>{featureItem.description}</p>
             </div>
         )
