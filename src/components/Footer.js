@@ -27,12 +27,12 @@ export default function Footer() {
                 <div class="footer-center">
                     <div>
                         <i class="fa fa-map-marker"></i>
-                        <p>3001 Solandt Rd, Kanata, ON K2K 2M8</p>
+                        <p>1240 Teron Rd, Kanata, ON K2K 2B5</p>
                     </div>
 
                     <div>
                         <i class="fa fa-phone"></i>
-                        <p>+xxx-xxx-xxxx</p>
+                        <p>+613-868-4876</p>
                     </div>
                     <div>
                         <i class="fa fa-envelope"></i>
