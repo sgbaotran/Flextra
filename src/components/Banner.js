@@ -1,11 +1,5 @@
-import React from 'react'
-import { Pagination } from 'swiper'
-import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'
+import './Banner.css'
 
-
-
-import 'swiper/swiper.min.css'
-import 'swiper/modules/pagination/pagination.min.css'
 
 
 
