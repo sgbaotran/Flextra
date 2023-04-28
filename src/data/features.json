@@ -1,0 +1,30 @@
+[
+
+
+    {
+        "id":3,
+        "name" : "Planning",
+        "description": "End-to-end design solutions with expert sourcing and support. Technical assistance for project success",
+        "path":"Planning-icon.png"
+    },
+    {
+        "id":3,
+        "name" : "SUPPORT",
+        "description": "End-to-end design solutions with expert sourcing and support. Technical assistance for project success",
+        "path":"Support-icon.png"
+    },
+    {
+        "id":2,
+        "name" : "DISTRUBTE",
+        "description": "Supply chain connections to obtain the materials for your electronic assembly projects",
+        "path":"Distribute-icon.png"
+
+    },
+    {
+        "id":1,
+        "name" : "DESIGN",
+        "description": "Design circuits that suit your needs. Custom solutions for your applications",
+        "path":"Design-icon.png"
+    }
+
+]

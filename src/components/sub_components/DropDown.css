@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.more-button-container{
+    display: none;
+}
+@media only screen and (max-width: 429px) {
+    .more-button-container {
+        flex: 4;
+        display: block;
+    }
+    .more-icon{
+        height: 2em;
+        margin: auto;
+        width: auto;
+    }
+    .more-button {
+        width: 45%;
+        margin: auto 10px auto auto !important;
+        display: block;
+        background-color: #b3b1b1 !important;
+
+    }
+}
