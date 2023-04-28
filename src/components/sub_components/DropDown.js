@@ -5,7 +5,8 @@ export default function Dropdown() {
     return <div className="more-button-container">
         <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
             className="more-button focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2.5 text-center" type="button">
-                 <img className='more-icon' src={require('../../media/More_icon.png')} alt=''/>
+                 {/* <img className='more-icon' src={require('../../media/More_icon.png')} alt=''/> */}
+                 more
         </button>
 
         <div id="dropdown" className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
