@@ -12,8 +12,8 @@ export default function Contact() {
                 <h2 className='contact-title' >Contact</h2>
                 {/* ON LEFT */}
                 <div className='contact-infos'>
-                    <form className="mx-auto block px-3 md:px-10  client-contact-form" action="https://formsubmit.co/sttr2130@gmail.com" method="POST">
-                        <input type="hidden" name="_next" value="https://gbaotran.com/" />
+                    <form className="mx-auto block px-3 md:px-10  client-contact-form" action="https://formsubmit.co/Flextra@rogers.com" method="POST">
+                        <input type="hidden" name="_next" value="https://flextraelec.com/" />
                         <input type="hidden" name="_captcha" value="false" />
 
                         <input className='form-item form-client-name ' type="text" name="name" placeholder='Name' required />

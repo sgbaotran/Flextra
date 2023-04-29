@@ -36,7 +36,7 @@ export default function Footer() {
                     </div>
                     <div>
                         <i class="fa fa-envelope"></i>
-                        <p><a href="mailto:flextra@rogers.com">flextra@rogers.com</a></p>
+                        <p><a href="mailto:flextra@rogers.com">Flextra@rogers.com</a></p>
                     </div>
                 </div>
                 <div class="footer-right">
