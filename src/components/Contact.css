@@ -8,6 +8,15 @@
     font-size: 3.8em;
     font-family: "Roboto Condensed", sans-serif;
 }
+.contact-infos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+iframe{
+    display: block;
+    min-width: min(50%,90%);
+}
 .contact-title::before {
     content: "";
     display: inline-block;
@@ -15,6 +24,9 @@
     background-color: rgb(1, 191, 0);
     width: 15px;
     transform: translateY(10px);
+}
+form{
+    min-width: min(40%, 90%);
 }
 
 .form-item {
