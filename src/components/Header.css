@@ -14,6 +14,11 @@ nav {
     display: flex;
     align-items: center;
 }
+
+.more-button-container{
+    display: none;
+}
+
 /* LOGO PART */
 .logo-container {
     display: block;
@@ -98,5 +103,22 @@ nav {
     .dropdown {
         display: block;
         flex: 4;
+    }
+
+    .more-button-container {
+        flex: 4;
+        display: block;
+    }
+    .more-icon{
+        height: 2em;
+        margin: auto;
+        width: auto;
+    }
+    .more-button {
+        width: 45%;
+        margin: auto 10px auto auto !important;
+        display: block;
+        background-color: #b3b1b1 !important;
+
     }
 }

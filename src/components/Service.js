@@ -1,16 +1,21 @@
-import './Service.css'
+import './css/Service.css'
 import featureItems from '../data/features.json'
 import serviceItems from '../data/services.json'
+import React from 'react';
 
 
 export default function service() {
     const services = serviceItems.map(serviceItem => {
+        const position = serviceItem.id % 2 === 0 ? "left-item" : "right-item";
         return (
-            <div class="service-box">
+            <div class={`service-item ${position}`}>
                 <img src={require(`../media/${serviceItem.path}`)} alt="" />
-                <h5 className='text'>{serviceItem.name}</h5>
-
-
+                <div className='service-text'>
+                    <div>
+                        <h5 className='text-4xl text-center underline'> <strong>{serviceItem.name}</strong> </h5>
+                        <p className='mt-3 text-3xl px-10'>{serviceItem.description} </p>
+                    </div>
+                </div>
             </div>
         )
     })
@@ -19,10 +24,11 @@ export default function service() {
 
     const features = featureItems.map(featureItem => {
         return (
-            <div class="feature-box">
+            <div class="feature-item">
+
                 <img src={require(`../icon/${featureItem.path}`)} alt="" />
-                <h5>{featureItem.name} </h5>
-                <p>{featureItem.description}</p>
+                <h5>{featureItem.name}</h5>
+                <p className='text-2xl'>{featureItem.description}</p>
             </div>
         )
     })
@@ -32,17 +38,20 @@ export default function service() {
 
 
     return (
+        <React.Fragment>
+            <div className='service-section container'>
+                <h2 className='service-section-title' >Our Services</h2>
+                <div class="service-container">
+                    {services}
+                </div>
+                
+                <h5 className="feature-introduction">We Also Offer</h5>
+                <div class="feature-container">
 
-        <div className='service-section container'>
-            <h2 className='service-title' >Our Services</h2>
-            <div class="service-box-container">
-                {/* {services} */}
-            </div>
-            <div class="feature-box-container">
-                {features}
-            </div>
-
-        </div >
+                    {features}
+                </div>
+            </div >
+        </React.Fragment>
 
     )
 }

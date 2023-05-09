@@ -1,11 +1,14 @@
 [
-
-
     {
-        "id":1,
-        "name" : "Cable Harness",
-        "description": "Design circuits that suit your needs. Custom solutions for your applications",
-        "path":"Cable-harness.png"
+        "id": 2,
+        "name": "Cable Harness & Wiring Harnesses",
+        "description": "We provide top-quality cable harnesses for industrial and commercial systems, tailored to meet each client's unique needs for optimal performance and reliability.",
+        "path": "Cable-harness.png"
+    },
+    {
+        "id": 1,
+        "name": "Electro-mechanical Assemblies",
+        "description": "We design and manufacture reliable electro-mechanical assemblies for diverse industries, integrating essential electrical and mechanical components.",
+        "path": "Electro-mechanical.png"
     }
-
 ]
