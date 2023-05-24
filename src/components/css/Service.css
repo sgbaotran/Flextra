@@ -86,6 +86,10 @@
   line-height: 1.125em;
 }
 
+.service-section .service-container .service-item .service-text h5 {
+  color: #000;
+}
+
 .service-section .service-container .left-item {
   flex-direction: row-reverse;
 }

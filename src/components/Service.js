@@ -12,8 +12,8 @@ export default function service() {
                 <img src={require(`../media/${serviceItem.path}`)} alt="" />
                 <div className='service-text'>
                     <div>
-                        <h5 className='text-4xl text-center underline'> <strong>{serviceItem.name}</strong> </h5>
-                        <p className='mt-3 text-3xl px-10'>{serviceItem.description} </p>
+                        <h5 className='text-5xl text-center '> <strong>{serviceItem.name}</strong> </h5>
+                        <p className='mt-3 text-2xl px-10'>{serviceItem.description} </p>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ export default function service() {
 
     return (
         <React.Fragment>
-            <div className='service-section container'>
+            <div className='service-section container' id='service'>
                 <h2 className='service-section-title' >Our Services</h2>
                 <div class="service-container">
                     {services}

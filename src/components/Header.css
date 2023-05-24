@@ -6,6 +6,10 @@ header {
     padding:0 !important ;
     background-color: #2d2a30;
     font-size: 18px;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+    
 }
 nav {
     display: block;
@@ -42,6 +46,8 @@ nav {
     justify-content: center;
 }
 .nav-item {
+    cursor: pointer;
+
     color: white;
     text-align: center;
     margin: auto auto;
@@ -53,6 +59,7 @@ nav {
     flex: 3;
 }
 .contact {
+    cursor: pointer;
     text-align: center;
     background-color: rgb(1, 191, 98);
     background-color: rgb(255, 215, 18);

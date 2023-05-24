@@ -1,4 +1,5 @@
 import './Header.css'
+import { Link } from 'react-scroll'
 
 
 function Dropdown() {
@@ -12,16 +13,21 @@ function Dropdown() {
         <div id="dropdown" className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
             <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                 <li>
-                    <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Solution</a>
+
+                    <Link to="test1" spy={true} smooth={true} offset={50} duration={500}
+                        className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Solution</Link>
                 </li>
                 <li>
-                    <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Industry</a>
+                    <Link to="test1" spy={true} smooth={true} offset={50} duration={500}
+                        className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Industry</Link>
                 </li>
                 <li>
-                    <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Quality</a>
+                    <Link to="test1" spy={true} smooth={true} offset={50} duration={500}
+                        className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Quality</Link>
                 </li>
                 <li>
-                    <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Contact</a>
+                    <Link to="test1" spy={true} smooth={true} offset={50} duration={500}
+                        className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Contact</Link>
                 </li>
             </ul>
         </div>
@@ -39,15 +45,15 @@ export default function Header() {
 
                 <nav className='nav-bar-container'>
                     <ul className='nav-bar' >
-                        <li className='nav-item'><a href='/service'>Service</a></li>
-                        <li className='nav-item'><a href='/experience'>Industry</a></li>
-                        <li className='nav-item'><a href='/project'>Quality</a></li>
+                        <li className='nav-item'> <Link to="service" spy={true} smooth={true} offset={50} duration={500}>Service</Link></li>
+                        <li className='nav-item'> <Link to="test1" spy={true} smooth={true} offset={50} duration={500}>Industry</Link></li>
+                        <li className='nav-item'> <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Quality</Link></li>
                     </ul>
                 </nav>
 
 
                 <div className='contact-container'>
-                    <a href='/contact' className='contact' >Contact</a>
+                    <Link className="contact"to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link>
                 </div>
 
 

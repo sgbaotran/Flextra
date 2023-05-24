@@ -77,9 +77,12 @@
             }
 
             .service-text {
-                flex: 1;
+              flex: 1;
               p{
                 line-height: 1.125em;
+              }
+              h5{
+                color: #000;
               }
             }
         }
